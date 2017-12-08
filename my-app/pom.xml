@@ -107,4 +107,11 @@
       </plugin>
     </plugins>
   </build>
+<distributionManagement>
+	<repository>
+		<id>uploadHere</id>
+		<name>uploadHere</name>
+		<url>http://localhost:8081/nexus/content/repositories/uploadHere/</url>
+	</repository>
+</distributionManagement>
 </project>
